@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[46,)"
+license="MIT"
+
+[[mods]]
+modId="drawingmod"
+version="1.0.0"
+displayName="Drawing Mod"
+authors="Manus"
+description="A simple client-side drawing mod."
+
+[[dependencies.drawingmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[46,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.drawingmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.1]"
+    ordering="NONE"
+    side="BOTH"
